@@ -1,0 +1,95 @@
+{
+    "extConfig": {
+        "enums": [
+            {
+                "name": "ActionType",
+                "values": [
+                    "Building",
+                    "Codding",
+                    "Debugging",
+                    "Documenting",
+                    "Idle",
+                    "Testing"
+                ]
+            },
+            {
+                "name": "SessionState",
+                "values": [
+                    "Ongoing",
+                    "Idle",
+                    "Ended"
+                ]
+            }
+        ]
+    },
+    "data": [
+        {
+            "config": false,
+            "user": "edskate",
+            "dailySessions": [
+                {
+                    "date": "Fri Oct 30 2026",
+                    "sessions": [
+                        {
+                            "sessionInfo": {
+                                "id": "367d5bd9-e9e5-40a6-93e6-6764886d22f8",
+                                "duration": 52814,
+                                "idle": 7059928,
+                                "state": "Idle",
+                                "durations": [
+                                    {
+                                        "id": "1d6174c1-060f-4f38-be7b-89b70db13c12",
+                                        "state": "Idle",
+                                        "begin": 1793332983708,
+                                        "end": 1793332983708,
+                                        "duration": 0
+                                    },
+                                    {
+                                        "id": "8265a364-0511-46d1-9882-1e5741c2fb8f",
+                                        "state": "Ongoing",
+                                        "begin": 1793332972356,
+                                        "end": 1793332983708,
+                                        "duration": 11352
+                                    },
+                                    {
+                                        "id": "246eaa9b-56be-44a8-958d-500d123dac7f",
+                                        "state": "Idle",
+                                        "begin": 1793332922521,
+                                        "end": 1793332972356,
+                                        "duration": 49835
+                                    },
+                                    {
+                                        "id": "62c5090e-79f8-4110-8a3d-9eac34d6c7b7",
+                                        "state": "Ongoing",
+                                        "begin": 1793332898657,
+                                        "end": 1793332922521,
+                                        "duration": 23864
+                                    },
+                                    {
+                                        "id": "36619499-0fea-43c9-bb5f-868a81b24880",
+                                        "state": "Idle",
+                                        "begin": 1793332794734,
+                                        "end": 1793332898657,
+                                        "duration": 103923
+                                    },
+                                    {
+                                        "id": "a8c23761-72a7-4763-bf24-9de358b45773",
+                                        "state": "Ongoing",
+                                        "begin": 1793332777136,
+                                        "end": 1793332794734,
+                                        "duration": 17598
+                                    }
+                                ],
+                                "filesExt": [
+                                    "",
+                                    ".html"
+                                ]
+                            },
+                            "actionType": "Idle"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
